@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    background: #b2adbd ;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#nav-bar {
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav {
+    text-align: center;
+    margin-left: 25%;
+}
+
+.navbar-nav li a {
+    text-align: center;
+    float: right;
+}
+
+.nav-item {
+    padding-right: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-icon {
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border-color: transparent;
+    border: none !important;
+}
+
+/* *************************Banner section *************** */
+#banner {
+    padding-top: 5%;
+}
+
+.main-text h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: left;
+    margin-top: 15px;
+    opacity: 1;
+}
+
+.main-text p {
+    font-size: 18px;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.button {
+    margin: 20px 0;
+    width: 140px;
+    color: black;
+    font-size: 18px;
+    border: 2px solid #1492E6;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+
+}
+
+.button:hover {
+    background-color: #1492E6;
+    color: beige;
+}
+
+.right-col-img img {
+    width: 100%;
+    margin: 20px;
+}
+
+/* ******************************Features section******************* */
+#features{
+    background-color: whitesmoke;
+    width:100%;
+    padding-bottom: 40px;
+}
+
+
+#features p{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    line-height: normal;
+    margin: 50px 0;
+
+}
+.card{
+    color: beige;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #ab8ced;
+    padding: 15px;
+    justify-content: space-between;
+}
+.card-title{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* *******************SERVICES Section******************* */
+
+#services{
+width: 100%;
+background-color: linear;
+}
+#services .row{
+    background-color: whitesmoke;
+    margin: 7% 0;
+}
+#services img{
+    border-radius: 5px;
+}
+#services .description{
+   margin: 2% 0;
+   padding: 0 3%;
+}
+#services h6{
+    padding-top: 10%;
+}
+
+/* *******************About us Section******************* */
+#about{
+    background: whitesmoke;
+    display: flex;
+}
+#about h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5%;
+}
+#about .row h5{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#about .row p{
+    padding-top: 10px;
+    font-weight:normal ;
+}
+#about button{
+    margin-top: 5px;
+}
+#about .rightside{
+    float: right;  
+}
+#about .leftside{
+    margin-top: 20%;  
+}
+
+/* *******************Testimonial Section******************* */
+
+#testimonial{
+    margin: 6% 0;
+}
+
+#testimonial h3{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 6%;
+    font-size: 35px;
+}
+.outer-shadowbox{
+    height: 350px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 20px 5px #d7d0e8 ;
+    margin-bottom: 30px;
+}
+#testimonial h5{
+    font-weight: 900;
+    padding: 35px;
+}
+#testimonial .outerStar{
+    width: 50px;
+    padding: 5px;
+}
+.testimonial-col .card{
+    width: 18rem;
+    border-radius: 30px;
+}
+.user img{
+    width: 50px;
+    padding-right: 10px;
+}  
+.user img.smallStar {
+    width: 14px;
+    padding: 0;
+}
+.user h6{
+    display: inline-flex;
+}
+.user .card-text{
+    padding-top: 25px;
+}
+
+/* *****************CLIENTS ***************** */
+
+#Clients{
+    display: flex;
+    background-color:whitesmoke;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.container{
+    margin: 5%;
+    width: 100%;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.client{
+    text-align: center;
+}
+/* *********************FOOTER************** */
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+footer {
+    color: whitesmoke;
+    padding-top: 20%;
+}
